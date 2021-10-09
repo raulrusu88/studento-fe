@@ -1,4 +1,5 @@
 import type { AppProps as NextAppProps } from "next/app";
+import "../styles/globals.css";
 import "tailwindcss/tailwind.css";
 
 type AppProps<P = any> = {
